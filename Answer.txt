@@ -53,3 +53,18 @@ Null referansın kendisi çok az yer kaplar (genellikle sadece bir pointer boyut
 -Nullable bir değişkenle çalışırken hangi operatörleri kullanırız? Bu operatörlerin kullanım farkları nelerdir? Hangisini ne zaman kullanmak daha anlamlıdır?
 
 Nullable değişkenle çalışırken !! ya da ? operatörlerini kullanırız ve null kontrolü yaparız. !! kullandığımız zaman ide ye null gelmeyeceğinin sözünü vermiş gibi oluyoruz. ? kullandığımız zaman null değil ise bu işlemi gerçekleştir demiş oluyoruz. İf kontrolüne benzetebiliriz. Değişkenin null geldiği durumda uygulamada ciddi bir eksiklik oluştuğu zaman !! kullanmak daha mantıklıdır ve uygulamayı crash etmiş oluruz fakat null geldiğinde pek bir önemi olmayan bir işlem ise ? kullanmak daha mantıklıdır ve uygulama çalışmaya devam eder. 
+
+
+Sayılar
+
+-Kaç farklı tipte "number" sınıfı miras alan "alt sınıf" (child class) vardır? Bunların değer aralıkları neden önemlidir?
+
+Number sınıfından sınıfından miras alan 6 tane alt sınıf vardır ;
+- Byte
+- Short
+- Int
+- Long
+- Float
+- Double 
+
+Uygulama geliştirme sırasında doğru veri türünü seçmek, hem performansı optimize eder hem de bellek kullanımını en verimli hale getirir.
