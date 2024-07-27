@@ -39,3 +39,7 @@ Null güvenliği, null referanslardan kaynaklanan hataları önlemek için kulla
 - Bir değişkene null değer atanır ve tip belirtilmezse Kotlin bu değişkeni nasıl yorumlar?
 
 Kotlin de değişken tipi belirtmeden null değer atanırsa bu değişkeni ide Nothing olarak tanımlar. 
+
+- İlkel bir değişkenin nullable olması ile null değer alamaması arasında bellek yönetimi açısından nasıl farklar vardır?
+
+İlkel bir değişkene nullable özellik verirsek bu değişken primitive olmaktan çıkar ve referans tipli bir eğişken olur. Belleğe erişim daha yavaş olur ve bellekte kapladığı alan daha fazla olur. 
