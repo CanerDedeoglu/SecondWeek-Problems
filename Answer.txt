@@ -49,3 +49,7 @@ Kotlin de değişken tipi belirtmeden null değer atanırsa bu değişkeni ide N
 Bir nullable değişken null olduğunda, bu değişkenin bellekte işaret ettiği herhangi bir nesne yoktur.
 Değişkenin kendisi bellekte bir referans olarak yer alır, ancak bu referansın işaret ettiği nesne bulunmaz.
 Null referansın kendisi çok az yer kaplar (genellikle sadece bir pointer boyutunda), ancak bu durum, değişkenin bellekten tamamen kaldırıldığı anlamına gelmez. Sadece işaret ettiği nesne yoktur.
+
+-Nullable bir değişkenle çalışırken hangi operatörleri kullanırız? Bu operatörlerin kullanım farkları nelerdir? Hangisini ne zaman kullanmak daha anlamlıdır?
+
+Nullable değişkenle çalışırken !! ya da ? operatörlerini kullanırız ve null kontrolü yaparız. !! kullandığımız zaman ide ye null gelmeyeceğinin sözünü vermiş gibi oluyoruz. ? kullandığımız zaman null değil ise bu işlemi gerçekleştir demiş oluyoruz. İf kontrolüne benzetebiliriz. Değişkenin null geldiği durumda uygulamada ciddi bir eksiklik oluştuğu zaman !! kullanmak daha mantıklıdır ve uygulamayı crash etmiş oluruz fakat null geldiğinde pek bir önemi olmayan bir işlem ise ? kullanmak daha mantıklıdır ve uygulama çalışmaya devam eder. 
