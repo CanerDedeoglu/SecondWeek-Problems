@@ -36,3 +36,6 @@ Kotlinde bir nesneyi nullable yapabilmek için nesnenin tipini belirtirken sonun
 
 Null güvenliği, null referanslardan kaynaklanan hataları önlemek için kullanılan bir mekanizmadır.Bu sayede null exception pointer hatası yok denilecek kadar azdır. 
 
+- Bir değişkene null değer atanır ve tip belirtilmezse Kotlin bu değişkeni nasıl yorumlar?
+
+Kotlin de değişken tipi belirtmeden null değer atanırsa bu değişkeni ide Nothing olarak tanımlar. 
