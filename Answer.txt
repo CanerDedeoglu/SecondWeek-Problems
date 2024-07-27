@@ -8,4 +8,8 @@ Bir val değişkenin val gibi davranmasını istiyorsak private setter yöntemi 
 
 Bir oyun karakteri sınıfı oluşturup, karakterin enerjisinin (energy) sadece belirli bir yöntemle değiştirilebilmesini sağlayalım. Bu yöntemle enerji artırılabilir veya azaltılabilir, ancak dışarıdan doğrudan enerji değeri değiştirilemez.
 
+- "Değişmez" (Immutable) ve "Salt Okunur" (ReadOnly) kavramlarını açıklayın. val değişkenler neden aslında "değişmez" değil de "salt okunur" olarak açıklanmalıdır?
 
+İmmutable kavramı, bir nesne oluşturulduktan sonra hiç bir şekilde değiştirilmemesine denir. Read only ise dışarıdan sadece okunabilen nesneler veya değişkenler için kullanılır. 
+
+Val değişkenler genelde immutable diye duyarız fakat val değişkenleri bir class yapısının içinde getter methodunun return'ünün sabit bir değere eşit olmaması durumunda değerin değişebilir olmasına sebep olur. Bu durumdan dolayı val değişkenler local bir fonksiyonun içinde immutable diyebiliriz fakat bir class yapısında read only'dir.
