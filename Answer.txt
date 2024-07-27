@@ -43,3 +43,9 @@ Kotlin de değişken tipi belirtmeden null değer atanırsa bu değişkeni ide N
 - İlkel bir değişkenin nullable olması ile null değer alamaması arasında bellek yönetimi açısından nasıl farklar vardır?
 
 İlkel bir değişkene nullable özellik verirsek bu değişken primitive olmaktan çıkar ve referans tipli bir eğişken olur. Belleğe erişim daha yavaş olur ve bellekte kapladığı alan daha fazla olur. 
+
+- Nullable bir değişkenin bir değere sahip olması ile null olması arasında bellek yönetimi açısından nasıl bir fark vardır? Null değer almış bir değişken bellekte yer kaplamaz diyebilir miyiz?
+
+Bir nullable değişken null olduğunda, bu değişkenin bellekte işaret ettiği herhangi bir nesne yoktur.
+Değişkenin kendisi bellekte bir referans olarak yer alır, ancak bu referansın işaret ettiği nesne bulunmaz.
+Null referansın kendisi çok az yer kaplar (genellikle sadece bir pointer boyutunda), ancak bu durum, değişkenin bellekten tamamen kaldırıldığı anlamına gelmez. Sadece işaret ettiği nesne yoktur.
