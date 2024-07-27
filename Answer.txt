@@ -72,3 +72,7 @@ Uygulama geliştirme sırasında doğru veri türünü seçmek, hem performansı
 - Eğer bir değişkene tip belirtimi yapılmaz ve bir değer atanırsa, Kotlin tip çıkarımını nasıl yapar?
 
 Kotlin, atanan değerin türüne bakarak değişkenin türünü belirler.
+
+-Float değişken oluştururken F ve f harfleri varken, Long değişken oluştururken neden küçük l harfi yoktur?
+
+Küçük l harfini yazdığımızda 1 e benzediği için büyük L kullanılır .
