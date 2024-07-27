@@ -13,3 +13,10 @@ Bir oyun karakteri sınıfı oluşturup, karakterin enerjisinin (energy) sadece 
 İmmutable kavramı, bir nesne oluşturulduktan sonra hiç bir şekilde değiştirilmemesine denir. Read only ise dışarıdan sadece okunabilen nesneler veya değişkenler için kullanılır. 
 
 Val değişkenler genelde immutable diye duyarız fakat val değişkenleri bir class yapısının içinde getter methodunun return'ünün sabit bir değere eşit olmaması durumunda değerin değişebilir olmasına sebep olur. Bu durumdan dolayı val değişkenler local bir fonksiyonun içinde immutable diyebiliriz fakat bir class yapısında read only'dir.
+
+- "Tip Çıkarımı" (Type inference) kavramını açıklayın. Hangi durumlarda tip belirtmek kesin olarak gereklidir?
+
+Kotlin' de bir nesne oluştururken iki farklı tarzda oluşturabiliriz. İlk'i değişkenin tipini belirterek değişken oluşturmak. İkincisinde ise sadece eşitliğin sağ tarafına değişkenin value değerini vererek. Burada ide bizim belirtmediğimiz değişkenin tipini kendisi otomatik olarak algılayıp değişken tipini veriyor. Bu olaya type inference denir. Numeric tipli değişkenlerde tip çıkarımı sırasında değer aralığı int ise burada değer byte,short olmasına bakılmaksızın ide int olarak set edilir. Eğer int değer aralığından büyük ise Long olarak set edilir.
+
+Bir nesneye nullable özelliği vermek istiyorsak burada kesinlikle tip belirtmek gereklidir.Yoksa tip çıkarımı oluyor diye belirtmeden sadece value değeri verirsek değişken tipini ide Nothing olarak belirler. 
+
