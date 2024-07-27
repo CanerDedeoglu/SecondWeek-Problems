@@ -1,0 +1,4 @@
+- val ile var arasındaki fark nedir?
+
+Val ve var anahtar kelimeleri değişken tanımlarken kullanılır. Val değişkenler değerleri bir kere atandıktan sonra değiştirilemez değişkenlerdir. "Value" kelimesinin kısaltmasıdır.Var ise değişebilen değerlere sahip değişkenler için kullanılır. "Variable" dan gelir. Val değişkenler read only değişkenlerdir.
+
