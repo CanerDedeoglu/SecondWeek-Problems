@@ -76,3 +76,7 @@ Kotlin, atanan değerin türüne bakarak değişkenin türünü belirler.
 -Float değişken oluştururken F ve f harfleri varken, Long değişken oluştururken neden küçük l harfi yoktur?
 
 Küçük l harfini yazdığımızda 1 e benzediği için büyük L kullanılır .
+
+- Tek duyarlıklı (Single precision) ve Çift duyarlıklı (Double precision) kavramlarını açıklayın.
+
+Tek Duyarlıklı (Single Precision) ve Çift Duyarlıklı (Double Precision), kayan noktalı sayıların iki farklı bellek formatıdır. Tek duyarlıklı sayılar 32 bit bellek kullanırken, çift duyarlıklı sayılar 64 bit bellek kullanır. Çift duyarlıklı sayılar daha yüksek hassasiyet ve geniş bir değer aralığı sunarken, tek duyarlıklı sayılar daha az bellek kullanır ve daha az hassasiyete sahiptir.
