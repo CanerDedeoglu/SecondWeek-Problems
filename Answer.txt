@@ -28,4 +28,9 @@ Diğer dillerde primitive olarak bildiğimiz değişkenler Kotlin'de sınıf tip
 
 Tip güvenliği, programlama dillerinde türlerle ilgili hataları erken aşamada tespit eden ve bu hataları önleyen bir mekanizmadır.
 
+-Bir değişkeni nullable yapmak için ne yapmalıyız?
+
+Kotlinde bir nesneyi nullable yapabilmek için nesnenin tipini belirtirken sonuna soru işareti konulmalıdır. String? gibi.
+
+
 
