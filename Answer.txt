@@ -68,3 +68,7 @@ Number sınıfından sınıfından miras alan 6 tane alt sınıf vardır ;
 - Double 
 
 Uygulama geliştirme sırasında doğru veri türünü seçmek, hem performansı optimize eder hem de bellek kullanımını en verimli hale getirir.
+
+- Eğer bir değişkene tip belirtimi yapılmaz ve bir değer atanırsa, Kotlin tip çıkarımını nasıl yapar?
+
+Kotlin, atanan değerin türüne bakarak değişkenin türünü belirler.
