@@ -32,5 +32,7 @@ Tip güvenliği, programlama dillerinde türlerle ilgili hataları erken aşamad
 
 Kotlinde bir nesneyi nullable yapabilmek için nesnenin tipini belirtirken sonuna soru işareti konulmalıdır. String? gibi.
 
+-"Null Güvenliği" (Null Safety) kavramını açıklayın.
 
+Null güvenliği, null referanslardan kaynaklanan hataları önlemek için kullanılan bir mekanizmadır.Bu sayede null exception pointer hatası yok denilecek kadar azdır. 
 
