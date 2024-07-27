@@ -2,3 +2,10 @@
 
 Val ve var anahtar kelimeleri değişken tanımlarken kullanılır. Val değişkenler değerleri bir kere atandıktan sonra değiştirilemez değişkenlerdir. "Value" kelimesinin kısaltmasıdır.Var ise değişebilen değerlere sahip değişkenler için kullanılır. "Variable" dan gelir. Val değişkenler read only değişkenlerdir.
 
+- Bir var değişkeni val gibi davranmasını nasıl sağlayabiliriz val kelimesini kullanmadan? Bunu neden yapmak isteriz? Örnek bir senaryo verin.
+
+Bir val değişkenin val gibi davranmasını istiyorsak private setter yöntemi ile bir daha set edilmesini engellediğimizden dolayı val değişken gibi davranır. Bir var değişkenin classlarda bazı yerlerinde val gibi davranmasını istediğimiz durumlarda kullanırız. 
+
+Bir oyun karakteri sınıfı oluşturup, karakterin enerjisinin (energy) sadece belirli bir yöntemle değiştirilebilmesini sağlayalım. Bu yöntemle enerji artırılabilir veya azaltılabilir, ancak dışarıdan doğrudan enerji değeri değiştirilemez.
+
+
