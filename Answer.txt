@@ -20,3 +20,7 @@ Kotlin' de bir nesne oluştururken iki farklı tarzda oluşturabiliriz. İlk'i d
 
 Bir nesneye nullable özelliği vermek istiyorsak burada kesinlikle tip belirtmek gereklidir.Yoksa tip çıkarımı oluyor diye belirtmeden sadece value değeri verirsek değişken tipini ide Nothing olarak belirler. 
 
+- Kotlin'de tüm değişkenlerin sınıf olarak bulunması, "ilkel tip" (primitive type) olmadıkları anlamına gelir mi? Arka planda neler oluyor?
+
+Diğer dillerde primitive olarak bildiğimiz değişkenler Kotlin'de sınıf tiplidir fakat bu referans tip görünümlü primitive tipli değişkenler çalışma zamanında byte koda dönüşüm sırasında özel optimizasyonlar ile primitive olarak ele alınmaktadır. Bundan dolayı Kotlin de primitive tip olmadığı anlamına gelmez.
+
