@@ -24,3 +24,8 @@ Bir nesneye nullable özelliği vermek istiyorsak burada kesinlikle tip belirtme
 
 Diğer dillerde primitive olarak bildiğimiz değişkenler Kotlin'de sınıf tiplidir fakat bu referans tip görünümlü primitive tipli değişkenler çalışma zamanında byte koda dönüşüm sırasında özel optimizasyonlar ile primitive olarak ele alınmaktadır. Bundan dolayı Kotlin de primitive tip olmadığı anlamına gelmez.
 
+- "Tip Güvenliği" (Type Safety) kavramını açıklayın.
+
+Tip güvenliği, programlama dillerinde türlerle ilgili hataları erken aşamada tespit eden ve bu hataları önleyen bir mekanizmadır.
+
+
