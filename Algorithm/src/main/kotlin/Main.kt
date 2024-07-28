@@ -28,6 +28,7 @@ fun getNumber(prompt: String): Number? {
             return number
         } else {
             println("Geçerli bir sayı giriniz.")
+            return null
         }
     }
 }
