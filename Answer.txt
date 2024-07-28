@@ -84,3 +84,5 @@ Tek Duyarlıklı (Single Precision) ve Çift Duyarlıklı (Double Precision), ka
 - Double ve Float değişkenlerle çalışırken ondalık ayıracı olarak hangi işaretler kullanılır? Bu ayıraçların kullanımında nelere dikkat etmek gerekir?
 
  Double ve Float değişkenlerle çalışırken ondalık ayıracı olarak nokta (.) kullanılır.
+
+
